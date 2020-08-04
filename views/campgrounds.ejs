@@ -1,3 +1,4 @@
+<%- include("./partials/header") %>
 <h1>Welcome the campgrounds</h1>
 <% campgrounds.map(camps => {%>
     <div>
@@ -5,3 +6,4 @@
     <img src="<%= camps.images %>" />
     </div>
 <% }) %>
+<%- include("./partials/footer") %>
